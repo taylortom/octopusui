@@ -1,0 +1,56 @@
+body {
+  width: 75%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 300px;
+}
+.logo h1 {
+  margin-top: 0;
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+}
+
+button {
+  background: black;
+  border: 3px solid black;
+  border-radius: 3px;
+  padding: 10px;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin: 10px 0;
+}
+button:hover {
+  background: white;
+  color: black;
+}
+
+.status {
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.status.success { background-color: green; }
+.status.error { background-color: red; }
+
+#editor {
+  width: 100%;
+  min-height: 400px;
+  border-radius: 3px;
+  border: 3px solid black;
+  font-family: monospace;
+  font-size: 18px;
+  outline: none;
+}
