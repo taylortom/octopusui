@@ -12,7 +12,7 @@ function generateSchema(e) {
     success: (data, textStatus, errorThrown) => {
       console.log(textStatus);
       updateStatus('success', 'Schema conversion succeeded');
-      $('#editor').html(data);
+      $('#editor').val(JSON.stringify(data,null,2));
     },
     error: (data, textStatus, jqXHR) => {
       console.log(textStatus);
